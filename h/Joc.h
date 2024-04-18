@@ -3,6 +3,7 @@
 #include "Tauler.h"
 #include "Figura.h"
 #include <string>
+
 using namespace std;
 
 class Joc
@@ -19,7 +20,6 @@ private:
 
 	Tauler m_tauler;
 	Figura m_figura;
-
 
 };
 
