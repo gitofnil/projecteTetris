@@ -38,8 +38,26 @@ typedef enum
 
 class Figura
 {
+public:
+    int getX() {return m_x;}
+    int getY() {return m_y;}
+    char getTipus() {return m_tipus;}
+    char getColor() {return m_color;}
+    char getGir() {return m_gir;}
+
+    int setX(x) {}
+    int setY()  {}
+    char setTipus() {}
+    char setColor() {}
+    char setGir() {}
 
 
+private:
+    int m_x;
+    int m_y;
+    char m_tipus;
+    char m_color;
+    char m_gir;
 
 };
 
