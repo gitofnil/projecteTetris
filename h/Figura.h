@@ -46,7 +46,7 @@ public:
     char getGir() {return m_gir;}
 
     int setX(x) {}
-    int setY()  {}
+    int setY(y)  {}
     char setTipus() {}
     char setColor() {}
     char setGir() {}
